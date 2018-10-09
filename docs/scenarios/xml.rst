@@ -1,6 +1,8 @@
 XML parsing
 ===========
 
+.. image:: /_static/photos/33888714601_a1f7d020a2_k_d.jpg
+
 untangle
 --------
 

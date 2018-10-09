@@ -1,10 +1,15 @@
 .. _install-windows:
 
-Installing Python on Windows
-============================
+Installing Python 2 on Windows
+==============================
 
-First, download the `latest version <https://www.python.org/ftp/python/2.7.10/python-2.7.10.msi>`_
-of Python 2.7 from the official Website. If you want to be sure you are installing a fully
+.. image:: /_static/photos/34435688560_4cc2a7bcbb_k_d.jpg
+
+.. note::
+    Check out our :ref:`guide for installing Python 3 on Windows<install3-windows>`.
+
+First, download the `latest version <https://www.python.org/ftp/python/2.7.14/python-2.7.14.msi>`_
+of Python 2.7 from the official website. If you want to be sure you are installing a fully
 up-to-date version, click the Downloads > Windows link from the home page of the
 `Python.org web site <http://python.org>`_ .
 
@@ -35,6 +40,8 @@ You can do this easily by running the following in ``powershell``:
 
     [Environment]::SetEnvironmentVariable("Path", "$env:Path;C:\Python27\;C:\Python27\Scripts\", "User")
 
+This is also an option during the installation process.
+
 The second (:file:`Scripts`) directory receives command files when certain
 packages are installed, so it is a very useful addition.
 You do not need to install or configure anything else to use Python. Having
@@ -46,38 +53,36 @@ makes it much easier for you to use other third-party Python libraries.
 Setuptools + Pip
 ----------------
 
-The most crucial third-party Python software of all is Setuptools, which
-extends the packaging and installation facilities provided by the distutils in
-the standard library. Once you add Setuptools to your Python system you can
-download and install any compliant Python software product with a single
-command. It also enables you to add this network installation capability to
-your own Python software with very little work.
+The two most crucial third-party Python packages are `setuptools <https://pypi.python.org/pypi/setuptools>`_ and `pip <https://pip.pypa.io/en/stable/>`_.
 
-To obtain the latest version of Setuptools for Windows, run the Python script
-available here: `ez_setup.py <https://bitbucket.org/pypa/setuptools/raw/bootstrap/ez_setup.py>`_
+Once installed, you can download, install and uninstall any compliant Python software
+product with a single command. It also enables you to add this network installation
+capability to your own Python software with very little work.
 
+Python 2.7.9 and later (on the python2 series), and Python 3.4 and later include
+pip by default.
 
-You'll now have a new command available to you: **easy_install**. It is
-considered by many to be deprecated, so we will install its replacement:
-**pip**. Pip allows for uninstallation of packages, and is actively maintained,
-unlike easy_install.
+To see if pip is installed, open a command prompt and run
 
-To install pip, run the Python script available here:
-`get-pip.py <https://raw.github.com/pypa/pip/master/contrib/get-pip.py>`_
+.. code-block:: console
+
+    $ command -v pip
+
+To install pip, `follow the official pip installation guide <https://pip.pypa.io/en/latest/installing/>`_ - this will automatically install the latest version of setuptools.
 
 
 Virtual Environments
 --------------------
 
-A Virtual Environment is a tool to keep the dependencies required by different projects 
-in separate places, by creating virtual Python environments for them. It solves the 
-"Project X depends on version 1.x but, Project Y needs 4.x" dilemma, and keeps 
+A Virtual Environment is a tool to keep the dependencies required by different projects
+in separate places, by creating virtual Python environments for them. It solves the
+"Project X depends on version 1.x but, Project Y needs 4.x" dilemma, and keeps
 your global site-packages directory clean and manageable.
 
-For example, you can work on a project which requires Django 1.3 while also
-maintaining a project which requires Django 1.0.
+For example, you can work on a project which requires Django 1.10 while also
+maintaining a project which requires Django 1.8.
 
-To start using this and see more information: :ref:`Virtual Environments <virtualenvironments-ref>` docs. 
+To start using this and see more information: :ref:`Virtual Environments <virtualenvironments-ref>` docs.
 
 
 --------------------------------

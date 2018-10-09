@@ -2,6 +2,8 @@
 Scientific Applications
 =======================
 
+.. image:: /_static/photos/33925223870_97e44f5629_k_d.jpg
+
 Context
 :::::::
 
@@ -94,7 +96,7 @@ auto-alignment of data.
 Rpy2
 ----
 
-`Rpy2 <http://rpy.sourceforge.net/rpy2.html>`_ is a Python binding for the R
+`Rpy2 <http://rpy2.bitbucket.org>`_ is a Python binding for the R
 statistical package allowing the execution of R functions from Python and
 passing data back and forth between the two environments. Rpy2 is the object
 oriented implementation of the `Rpy <http://rpy.sourceforge.net/rpy.html>`_

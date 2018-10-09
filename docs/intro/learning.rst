@@ -1,6 +1,8 @@
 Learning Python
 ===============
 
+.. image:: /_static/photos/32800783863_11a00db52c_k_d.jpg
+
 Beginner
 --------
 
@@ -12,6 +14,21 @@ the language and the standard library. Recommended for those who need a
 quick-start guide to the language.
 
     `The Python Tutorial <http://docs.python.org/tutorial/index.html>`_
+
+Real Python
+~~~~~~~~~~~
+
+Real Python is a repository of free and in-depth Python tutorials created by a diverse team of professional Python developers. At Real Python you can learn all things Python from the ground up. Everything from the absolute basics of Python, to web development and web scraping, to data visualization, and beyond.
+
+    `Real Python <https://realpython.com/>`_
+
+
+Python Basics
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+pythonbasics.org is an introductiory tutorial for beginners. The tutorial includes exercises. It covers the basics and there are also in-depth lessons like object oriented programming and regular expressions.
+
+   `Python basics <https://pythonbasics.org/>`_
 
 Python for Beginners
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -34,11 +51,18 @@ without having to install Python locally.
 
     `Learn Python <http://www.learnpython.org/>`_
 
-
 If you want a more traditional book, *Python For You and Me* is an excellent
 resource for learning all aspects of the language.
 
-    `Python for You and Me <http://pymbook.readthedocs.org/>`_
+    `Python for You and Me <https://pymbook.readthedocs.io/>`_
+
+Learn Python Step by Step
+~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Techbeamers.com provides step-by-step tutorials to teach Python. Each tutorial is supplemented with logically added coding snippets and equips with a follow-up quiz on the subject learned. There is a section for `Python interview questions <http://www.techbeamers.com/python-interview-questions-programmers>`_ to help job seekers. You can also read essential `Python tips <http://www.techbeamers.com/essential-python-tips-tricks-programmers>`_ and learn `best coding practices <http://www.techbeamers.com/python-code-optimization-tips-tricks>`_ for writing quality code. Here, you'll get the right platform to learn Python quickly.
+
+`Learn Python Basic to Advanced <http://www.techbeamers.com/python-tutorial-step-by-step>`_
+
 
 Online Python Tutor
 ~~~~~~~~~~~~~~~~~~~
@@ -97,7 +121,7 @@ Dive Into Python 3 is a good book for those ready to jump in to Python 3. It's
 a good read if you are moving from Python 2 to 3 or if you already have some
 experience programming in another language.
 
-    `Dive Into Python 3 <http://www.diveinto.org/python3/>`_
+    `Dive Into Python 3 <http://www.diveintopython3.net/>`_
 
 
 Think Python: How to Think Like a Computer Scientist
@@ -145,7 +169,7 @@ A free introductory book that teaches Python at the beginner level, it assumes
 no previous programming experience.
 
     `A Byte of Python for Python 2.x <http://www.ibiblio.org/swaroopch/byteofpython/read/>`_
-    `A Byte of Python for Python 3.x <http://swaroopch.com/notes/Python_en-Preface/>`_
+    `A Byte of Python for Python 3.x <https://python.swaroopch.com/>`_
 
 
 Learn to Program in Python with Codeacademy
@@ -157,8 +181,29 @@ This course also features a built-in interpreter for receiving instant feedback 
     `Learn to Program in Python with Codeacademy <http://www.codecademy.com/en/tracks/python>`_
 
 
+Code the blocks
+~~~~~~~~~~~~~~~
+
+*Code the blocks* provides free and interactive Python tutorials for
+beginners. It combines Python programming with a 3D environment where
+you "place blocks" and construct structures. The tutorials teach you
+how to use Python to create progressively elaborate 3D structures,
+making the process of learning Python fun and engaging.
+
+    `Code the blocks <https://codetheblocks.com/tutorials/introduction>`_
+
+
 Intermediate
 ------------
+
+Python Tricks: The Book
+~~~~~~~~~~~~~~~~~~~~~~~
+
+Discover Python's best practices with simple examples and start writing even more beautiful + Pythonic code. "Python Tricks: The Book" shows you exactly how.
+
+You’ll master intermediate and advanced-level features in Python with practical examples and a clear narrative:
+
+    `Python Tricks: The Book <https://realpython.com/products/python-tricks-book/>`_
 
 Effective Python
 ~~~~~~~~~~~~~~~~
@@ -209,6 +254,10 @@ in Python. Magic methods are surrounded by double underscores (i.e. __init__)
 and can make classes and objects behave in different and magical ways.
 
     `A Guide to Python's Magic Methods <http://www.rafekettler.com/magicmethods.html>`_
+
+.. note:: The Rafekettler.com is currently down, you can go to their Github version directly. Here you can find a PDF version:
+    `A Guide to Python's Magic Methods (repo on GitHub) <https://github.com/RafeKettler/magicmethods/blob/master/magicmethods.pdf>`_
+
 
 
 For Engineers and Scientists

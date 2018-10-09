@@ -3,6 +3,8 @@
 Further Configuration of Pip and Virtualenv
 ===========================================
 
+.. image:: /_static/photos/34018732105_f0e6758859_k_d.jpg
+
 Requiring an active virtual environment for ``pip``
 ---------------------------------------------------
 
@@ -18,8 +20,8 @@ environment of the project. Over time this can result in a messy global package
 list.
 
 In order to make sure that you install packages to your active virtual
-environment when you use ``pip install``, consider adding the following two
-lines to your :file:`~/.bashrc` file:
+environment when you use ``pip install``, consider adding the following
+line to your :file:`~/.bashrc` file:
 
 .. code-block:: console
 
@@ -94,9 +96,14 @@ that you use. For example, you may be using the ``requests`` library in a lot
 of different projects.
 
 It is surely unnecessary to re-download the same packages/libraries each time
-you start working on a new project (and in a new virtual environment as a result).
-Fortunately, you can configure pip in such a way that it tries to reuse already
-installed packages.
+you start working on a new project (and in a new virtual environment as a
+result). Fortunately, starting with version 6.0, pip provides an `on-by-default
+caching mechanism
+<https://pip.pypa.io/en/stable/reference/pip_install/#caching>`_ that doesn't
+need any configuration.
+
+When using older versions, you can configure pip in such a way that it tries to
+reuse already installed packages, too.
 
 On UNIX systems, you can add the following line to your :file:`.bashrc` or
 :file:`.bash_profile` file.

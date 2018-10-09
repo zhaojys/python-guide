@@ -3,6 +3,8 @@
 The Community
 =============
 
+.. image:: /_static/photos/34689432801_78d97ecec9_k_d.jpg
+
 BDFL
 ----
 

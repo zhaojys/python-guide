@@ -1,6 +1,10 @@
 Continuous Integration
 ======================
 
+.. image:: /_static/photos/33907150594_9abba7ad0a_k_d.jpg
+
+.. note::
+    For advice on writing your tests, see :doc:`/writing/tests`.
 
 Why?
 ----
@@ -35,7 +39,7 @@ automate the compile/test cycle to validate code changes.
 Tox
 ---
 
-`tox <http://tox.readthedocs.org/en/latest/>`_ is an automation tool providing
+`tox <https://tox.readthedocs.io/en/latest/>`_ is an automation tool providing
 packaging, testing and deployment of Python software right from the console or
 CI server. It is a generic virtualenv management and test command line tool
 which provides the following features:
@@ -77,7 +81,7 @@ this example content::
 This will get your project tested on all the listed Python versions by
 running the given script, and will only build the master branch. There are a
 lot more options you can enable, like notifications, before and after steps
-and much more. The `travis-ci docs <http://about.travis-ci.org/docs/>`_
+and much more. The `travis-ci docs <https://docs.travis-ci.com/user/languages/python/>`_
 explain all of these options, and are very thorough.
 
 In order to activate testing for your project, go to `the travis-ci site <https://travis-ci.org/>`_

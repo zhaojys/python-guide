@@ -4,6 +4,8 @@
 Packaging Your Code
 ===================
 
+.. image:: /_static/photos/36137234682_be6898bf57_k_d.jpg
+
 Package your code to share it with other developers. For example
 to share a library for other developers to use in their application,
 or for development tools like 'py.test'.
@@ -25,7 +27,7 @@ and being able and willing to use tools such as pip to install your code's
 other dependencies. This is fine when distributing to other developers, but
 makes this method unsuitable for distributing applications to end-users.
 
-The `Python Packaging Guide <https://python-packaging-user-guide.readthedocs.org/en/latest/>`_
+The `Python Packaging Guide <https://python-packaging-user-guide.readthedocs.io/>`_
 provides an extensive guide on creating and maintaining Python packages.
 
 Alternatives to Packaging
@@ -101,7 +103,7 @@ pypiserver
 `Pypiserver <https://pypi.python.org/pypi/pypiserver>`_ is a minimal PyPI
 compatible server.  It can be used to serve a set of packages to easy_install
 or pip.  It includes helpful features like an administrative command
-(:option:`-U`) which will update all its packages to their latest versions
+(``-U``) which will update all its packages to their latest versions
 found on PyPI.
 
 
@@ -152,7 +154,7 @@ Also, if a distribution releases a new security update for Python, then your
 application will automatically start using that new version of Python.
 
 The bdist_rpm command makes `producing an RPM file <https://docs.python.org/3/distutils/builtdist.html#creating-rpm-packages>`_
-for use by distributions like Red Hat or SuSE is trivially easy.
+for use by distributions like Red Hat or SuSE trivially easy.
 
 However, creating and maintaining the different configurations required for
 each distribution's format (e.g. .deb for Debian/Ubuntu, .rpm for Red
@@ -184,3 +186,4 @@ Useful Tools
 
 - `fpm <https://github.com/jordansissel/fpm>`_
 - `alien <http://joeyh.name/code/alien/>`_
+- `dh-virtualenv <https://dh-virtualenv.readthedocs.io/en/latest/info.html>`_ (for APT/DEB omnibus packaging)

@@ -1,6 +1,8 @@
 Introduction
 ============
 
+.. image:: /_static/photos/34725946825_0f85497e60_k_d.jpg
+
 From the `official Python website <http://python.org/about/>`_:
 
 Python is a general-purpose, high-level programming language similar

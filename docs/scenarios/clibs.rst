@@ -1,10 +1,12 @@
 Interfacing with C/C++ Libraries
 ================================
 
+.. image:: /_static/photos/34725951345_c8f5959a2e_k_d.jpg
+
 C Foreign Function Interface
 ----------------------------
 
-`CFFI <https://cffi.readthedocs.org/en/latest/>`_ provides a simple to use
+`CFFI <https://cffi.readthedocs.io/en/latest/>`_ provides a simple to use
 mechanism for interfacing with C from both CPython and PyPy. It supports two
 modes: an inline ABI compatibility mode (example provided below), which allows
 you to dynamically load and run functions from executable modules (essentially
@@ -39,7 +41,7 @@ types, such as structs and unions, and allows you to modify things such as
 padding and alignment, if needed. It can be a bit crufty to use, but in
 conjunction with the `struct <https://docs.python.org/3.5/library/struct.html>`_
 module, you are essentially provided full control over how your data types get
-translated into something something usable by a pure C(++) method.
+translated into something usable by a pure C(++) method.
 
 Struct Equivalents
 ~~~~~~~~~~~~~~~~~~
@@ -96,9 +98,10 @@ Example: Overloading __repr__
         std::string getName();
     };
 
+
 :file:`myclass.i`
 
-.. code-block:: c++
+.. code-block:: idl
     :linenos:
 
     %include "string.i"
